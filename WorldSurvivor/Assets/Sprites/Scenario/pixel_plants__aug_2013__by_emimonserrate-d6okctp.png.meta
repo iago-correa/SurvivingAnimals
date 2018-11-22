@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: a3060c2ca04dffe4d95267ecf4aeb567
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pixel_plants__aug_2013__by_emimonserrate-d6okctp_0
+    21300002: pixel_plants__aug_2013__by_emimonserrate-d6okctp_1
+    21300004: pixel_plants__aug_2013__by_emimonserrate-d6okctp_2
+    21300006: pixel_plants__aug_2013__by_emimonserrate-d6okctp_3
+    21300008: pixel_plants__aug_2013__by_emimonserrate-d6okctp_4
+    21300010: pixel_plants__aug_2013__by_emimonserrate-d6okctp_5
+    21300012: pixel_plants__aug_2013__by_emimonserrate-d6okctp_6
+    21300014: pixel_plants__aug_2013__by_emimonserrate-d6okctp_7
+    21300016: pixel_plants__aug_2013__by_emimonserrate-d6okctp_8
+    21300018: pixel_plants__aug_2013__by_emimonserrate-d6okctp_9
+    21300020: pixel_plants__aug_2013__by_emimonserrate-d6okctp_10
+    21300022: pixel_plants__aug_2013__by_emimonserrate-d6okctp_11
+    21300024: pixel_plants__aug_2013__by_emimonserrate-d6okctp_12
+    21300026: pixel_plants__aug_2013__by_emimonserrate-d6okctp_13
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 313
+        width: 241
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922d654b4e1386b418965c21e621e9c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 259
+        width: 271
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39098134ff61f1849ace997d01b2f22e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_2
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 238
+        width: 166
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d35f0fb329b79419adbd6cd3397dcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_3
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 244
+        width: 162
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccf14edd6fe9854cac6cdbc2aed4fb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 87
+        width: 138
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfd5c269290eca48a65d57358dcb1ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_5
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 82
+        width: 106
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04b3858eace2ed46a8bd277d7646def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 39
+        width: 203
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c79b128a06108e43906c1c1d4f17ed3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 173
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9913b65f5c8aa43ad609f5872f8ffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 31
+        width: 122
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b8b3257b7bb9d45ae6b205577019ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 38
+        width: 103
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e83b3139c252df47987f1cd616415a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 40
+        width: 59
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d8751a59812b149a40648037f9cbfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 157
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b9a870d2ac4534c945d73e214a4a14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 163
+        width: 43
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c82384a868a04840bbf36d282b904f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_plants__aug_2013__by_emimonserrate-d6okctp_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 168
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad99727eedded04aabfc8af8dc2e0c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 326f7c22822bbe84295c851bd48bb55a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

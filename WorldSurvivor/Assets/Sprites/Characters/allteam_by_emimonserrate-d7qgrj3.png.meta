@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: a6359c91036cbf846bd4af585cf263fa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: allteam_by_emimonserrate-d7qgrj3_0
+    21300002: allteam_by_emimonserrate-d7qgrj3_1
+    21300004: allteam_by_emimonserrate-d7qgrj3_2
+    21300006: allteam_by_emimonserrate-d7qgrj3_3
+    21300008: allteam_by_emimonserrate-d7qgrj3_4
+    21300010: allteam_by_emimonserrate-d7qgrj3_5
+    21300012: allteam_by_emimonserrate-d7qgrj3_6
+    21300014: allteam_by_emimonserrate-d7qgrj3_7
+    21300016: allteam_by_emimonserrate-d7qgrj3_8
+    21300018: allteam_by_emimonserrate-d7qgrj3_9
+    21300020: allteam_by_emimonserrate-d7qgrj3_10
+    21300022: allteam_by_emimonserrate-d7qgrj3_11
+    21300024: allteam_by_emimonserrate-d7qgrj3_12
+    21300026: allteam_by_emimonserrate-d7qgrj3_13
+    21300028: allteam_by_emimonserrate-d7qgrj3_14
+    21300030: allteam_by_emimonserrate-d7qgrj3_15
+    21300032: allteam_by_emimonserrate-d7qgrj3_16
+    21300034: allteam_by_emimonserrate-d7qgrj3_17
+    21300036: allteam_by_emimonserrate-d7qgrj3_18
+    21300038: allteam_by_emimonserrate-d7qgrj3_19
+    21300040: allteam_by_emimonserrate-d7qgrj3_20
+    21300042: allteam_by_emimonserrate-d7qgrj3_21
+    21300044: allteam_by_emimonserrate-d7qgrj3_22
+    21300046: allteam_by_emimonserrate-d7qgrj3_23
+    21300048: allteam_by_emimonserrate-d7qgrj3_24
+    21300050: allteam_by_emimonserrate-d7qgrj3_25
+    21300052: allteam_by_emimonserrate-d7qgrj3_26
+    21300054: allteam_by_emimonserrate-d7qgrj3_27
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 453
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3894301baad6ed140a5d8ec2e19c7474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 453
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8201d42ff4f7b4da8c8039268b1d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 453
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b645e3c6b94ee4caf270851aec8cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 453
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6a9a5bf52e6dd4eb2f0c048f3f6ec5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 453
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa34c5742a2e6d44a34558578408edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 453
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e90d0e95b6c5046b3ac21d66329e6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 453
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d1f0044d10b7541abebf4993c2d8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 327
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558d5969d8c8aa041b39d6d2b40295e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 327
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5750bfd83c21e4408566e52fb8437e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 327
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248df3fa09611dc42a5356fd3b652a7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 327
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f028f4017872f4899b084f4f3bda12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 309
+        width: 57
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d74f930df81d8249a3468bfe69db491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_12
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 327
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1a1ba01509cb445906faf2573d89f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 327
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daa0e831dd87bd4bbf5330177918843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 201
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e69e17fd506524285a7291af4cfa07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 201
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a671a4ee1d2b3ba44bbb73ce01bbe22a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 201
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a13e0abeee9ab4d955bcb729b8bfc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 201
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ac629f197d5a40b5066fc9db3c66f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 201
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ced1e25b3b7d64fbf2dc8f8f2c23db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_19
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 201
+        width: 60
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313cda1385d696345b510ff68d60bbe7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_20
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 201
+        width: 60
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb4a2b220427754e997ed8b72145d8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_21
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 75
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d76ace59fa1e043b427f6c4ab549b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 75
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0d026f36943ce48a8e8f2a1e93a7de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 75
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e894551fa663b940a48b58b537e978b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 75
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde9b9a49053124d86b7948addff4d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_25
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 75
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3c9fdf53abffe4a82625bfa133f948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 75
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2532acdeffe3c7418d75f52eec85804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allteam_by_emimonserrate-d7qgrj3_27
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 75
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150d72c83c1323b4faed32106e591402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ccbf36ca17276314fb2c785da10a5df7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
