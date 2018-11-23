@@ -44,7 +44,7 @@ public class BunnyController : MonoBehaviour {
 
 		}
 
-		if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)){
+		if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow)){
 			anim.SetBool("isWalking", true);
 			totalTime = 0;
 		} else {
@@ -55,6 +55,10 @@ public class BunnyController : MonoBehaviour {
 			anim.SetBool("isIdling", true);
 		} else{
 			anim.SetBool("isIdling", false);
+		}
+
+		if(Input.GetKeyDown(KeyCode.Space)){
+			anim.SetTrigger("sleep");
 		}
 
 		// Para não rodar com o planeta
