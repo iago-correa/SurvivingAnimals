@@ -22,11 +22,22 @@ public class BunnyController : MonoBehaviour {
 	private float idleTime;
 	private float totalTime;
 
+	private bool hidden;
+	private SpriteRenderer renderer;
+	public SpriteRenderer earRenderer;
+
+	private bool sleeping = false;
+	private bool toSleep = false;
+	public float timeToWake;
+	private float totalSleeping;
+
 	// Use this for initialization
 	void Start () {
 
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+
+		renderer = GetComponent<SpriteRenderer>();
 
 		idleTime = 5;
 		totalTime = 0;
@@ -39,8 +50,6 @@ public class BunnyController : MonoBehaviour {
 		energy = energy - 1;
 		healthBar.value = life;
 		energyBar.value = energy;
-
-		
 		
 		moveInputX = Input.GetAxis("Horizontal");
 		moveInputY = Input.GetAxis("Vertical");
@@ -70,9 +79,28 @@ public class BunnyController : MonoBehaviour {
 			anim.SetBool("isIdling", false);
 		}
 
-		if(Input.GetKeyDown(KeyCode.Space)){
-			anim.SetTrigger("sleep");
+		if(hidden == true && sleeping == true){
+			Hide(0, false);
+		}else if(hidden == true){
+			Hide(0.5f, true);
+		}else if(hidden == false){
+			Unhide();
 		}
+
+
+		if(toSleep == true && Input.GetKeyUp(KeyCode.Space)){
+			Sleep();
+		} 
+
+		if(sleeping == true){
+			totalSleeping += Time.deltaTime;
+		}
+
+		if(sleeping == true && totalSleeping >= timeToWake){
+			Wake();
+			totalSleeping = 0;
+		}
+
 
 		// Para não rodar com o planeta
 		transform.Rotate(Vector3.forward * Time.deltaTime * -1);
@@ -89,4 +117,55 @@ public class BunnyController : MonoBehaviour {
 		transform.localScale = Scaler;
 
 	}
+
+	void OnTriggerEnter2D(Collider2D other){
+
+		if(other.gameObject.tag == "Bush"){
+			hidden = true;
+		}
+
+		if(other.gameObject.tag == "Hole"){
+			toSleep = true;
+		}
+
+	}
+
+	void OnTriggerExit2D(Collider2D other){
+
+		if(other.gameObject.tag == "Bush"){
+			hidden = false;
+		}
+
+	}
+
+	void Hide(float alpha, bool body){
+		if(body){
+			renderer.color = new Color(1f, 1f, 1f, alpha); 
+			earRenderer.color = new Color(1f, 1f, 1f, alpha); 
+		}else if(!body){
+			earRenderer.color = new Color(1f, 1f, 1f, alpha); 
+		}
+	}
+
+	void Unhide(){
+		renderer.color = new Color(1f, 1f, 1f, 1f); 
+		earRenderer.color = new Color(1f, 1f, 1f, 1f); 
+	}
+
+	void Sleep(){
+		Debug.Log("Dormir");
+		anim.SetBool("isSleeping",true);
+		hidden = true;
+		sleeping = true;
+		Hide(0, false);
+	}
+
+	void Wake(){
+		Debug.Log("Acordar");
+		anim.SetBool("isSleeping", false);
+		sleeping = false;
+		toSleep = false;
+		hidden = false;
+	}
+
 }
