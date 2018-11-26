@@ -1,10 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BunnyController : MonoBehaviour {
 
 	public float speed;
+	public int life;
+	public int energy;
+
+	public Slider healthBar;
+	public Slider energyBar;
+
 	private float moveInputX;
 	private float moveInputY;
 
@@ -28,6 +35,12 @@ public class BunnyController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		energy = energy - 1;
+		healthBar.value = life;
+		energyBar.value = energy;
+
+		
 		
 		moveInputX = Input.GetAxis("Horizontal");
 		moveInputY = Input.GetAxis("Vertical");
