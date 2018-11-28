@@ -88,11 +88,12 @@ public class BunnyController : MonoBehaviour {
 		}
 
 
-		if(toSleep == true && Input.GetKeyUp(KeyCode.Space)){
+		if(toSleep == true && Input.GetKeyUp(KeyCode.Space) && energy < 0.7*10000){
 			Sleep();
 		} 
-
+		
 		if(sleeping == true){
+			energy += 7000/(int)(timeToWake*60);
 			totalSleeping += Time.deltaTime;
 		}
 

@@ -382,7 +382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   life: 100
-  energy: 5000
+  energy: 10000
   healthBar: {fileID: 1274968072}
   energyBar: {fileID: 1420894545}
   earRenderer: {fileID: 1332559505}
