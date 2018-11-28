@@ -14,7 +14,8 @@ public class BunnyController : MonoBehaviour {
 
 	private float moveInputX;
 	private float moveInputY;
-
+	private float multiplier;
+	public bool walkable;
 	private Rigidbody2D rb;
 	private bool facingRight = true;
 
@@ -26,10 +27,15 @@ public class BunnyController : MonoBehaviour {
 	private SpriteRenderer renderer;
 	public SpriteRenderer earRenderer;
 
-	private bool sleeping = false;
+	public bool sleeping = false;
 	private bool toSleep = false;
-	public float timeToWake;
+	private float initSleep;
 	private float totalSleeping;
+	public SpriteRenderer sleepRenderer;
+	public GameObject world;
+	private float initMultiplier;
+	public int incrMultiplier;
+	private int amountIcrEnergy = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -47,64 +53,72 @@ public class BunnyController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		energy = energy - 1;
 		healthBar.value = life;
 		energyBar.value = energy;
-		
-		moveInputX = Input.GetAxis("Horizontal");
-		moveInputY = Input.GetAxis("Vertical");
 
-		rb.velocity = new Vector2 (moveInputX * speed, moveInputY * speed);
+		if(!sleeping){
 
-		if (!facingRight && moveInputX > 0) {
+			energy = energy - 1;
 
-			Flip ();
+			moveInputX = Input.GetAxis("Horizontal");
+			moveInputY = Input.GetAxis("Vertical");
 
-		}else if(facingRight && moveInputX <0){
+			rb.velocity = new Vector2 (moveInputX * speed, moveInputY * speed);
 
-			Flip ();
+			if (!facingRight && moveInputX > 0) {
+
+				Flip ();
+
+			}else if(facingRight && moveInputX <0){
+
+				Flip ();
+
+			}
+
+			if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow)){
+				anim.SetBool("isWalking", true);
+				totalTime = 0;
+			} else {
+				anim.SetBool("isWalking", false);
+			}
+
+			if(!(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) && totalTime >= idleTime){
+				anim.SetBool("isIdling", true);
+			} else{
+				anim.SetBool("isIdling", false);
+			}
+
+			if(hidden == true){
+				Hide(0.5f);
+			}else if(hidden == false){
+				Unhide();
+			}
 
 		}
-
-		if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow)){
-			anim.SetBool("isWalking", true);
-			totalTime = 0;
-		} else {
-			anim.SetBool("isWalking", false);
-		}
-
-		if(!(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) && totalTime >= idleTime){
-			anim.SetBool("isIdling", true);
-		} else{
-			anim.SetBool("isIdling", false);
-		}
-
-		if(hidden == true && sleeping == true){
-			Hide(0, false);
-		}else if(hidden == true){
-			Hide(0.5f, true);
-		}else if(hidden == false){
-			Unhide();
-		}
-
 
 		if(toSleep == true && Input.GetKeyUp(KeyCode.Space) && energy < 0.7*10000){
 			Sleep();
 		} 
 		
 		if(sleeping == true){
-			energy += 7000/(int)(timeToWake*60);
-			totalSleeping += Time.deltaTime;
+			world.GetComponent<EarthController>().multiplier = 100;
+			if(amountIcrEnergy < 7000){
+				energy += (int)7000/(100);
+				amountIcrEnergy += (int)7000/(100);
+			}
+			if(energy > 10000){
+				energy = 10000;
+			}
+			totalSleeping = world.transform.localRotation.z;
+			if(initSleep - totalSleeping < 0.1 && initSleep - totalSleeping > 0){
+				Wake();
+				totalSleeping = 0;
+			}
 		}
-
-		if(sleeping == true && totalSleeping >= timeToWake){
-			Wake();
-			totalSleeping = 0;
-		}
-
 
 		// Para não rodar com o planeta
-		transform.Rotate(Vector3.forward * Time.deltaTime * -1);
+		multiplier = world.GetComponent<EarthController>().multiplier;
+		transform.Rotate(Vector3.forward * Time.deltaTime * -1*multiplier);
 
 		totalTime += Time.deltaTime;
 
@@ -129,6 +143,10 @@ public class BunnyController : MonoBehaviour {
 			toSleep = true;
 		}
 
+		if(other.gameObject.tag == "Earth"){
+			walkable = true;
+		}
+
 	}
 
 	void OnTriggerExit2D(Collider2D other){
@@ -137,15 +155,19 @@ public class BunnyController : MonoBehaviour {
 			hidden = false;
 		}
 
+		if(other.gameObject.tag == "Hole"){
+			toSleep = false;
+		}
+
+		if(other.gameObject.tag == "Earth"){
+			walkable = false;
+		}
+
 	}
 
-	void Hide(float alpha, bool body){
-		if(body){
-			renderer.color = new Color(1f, 1f, 1f, alpha); 
-			earRenderer.color = new Color(1f, 1f, 1f, alpha); 
-		}else if(!body){
-			earRenderer.color = new Color(1f, 1f, 1f, alpha); 
-		}
+	void Hide(float alpha){
+		renderer.color = new Color(1f, 1f, 1f, alpha); 
+		earRenderer.color = new Color(1f, 1f, 1f, alpha); 
 	}
 
 	void Unhide(){
@@ -154,19 +176,22 @@ public class BunnyController : MonoBehaviour {
 	}
 
 	void Sleep(){
+		initMultiplier = world.GetComponent<EarthController>().multiplier;
+		Hide(0);
+		sleepRenderer.color = new Color(1f, 1f, 1f, 1f);
 		Debug.Log("Dormir");
-		anim.SetBool("isSleeping",true);
-		hidden = true;
 		sleeping = true;
-		Hide(0, false);
+		amountIcrEnergy = 0;
+		initSleep = world.transform.localRotation.z;
 	}
 
 	void Wake(){
+		world.GetComponent<EarthController>().multiplier = initMultiplier + incrMultiplier;
+		Unhide();
+		sleepRenderer.color = new Color(1f, 1f, 1f, 0f);
 		Debug.Log("Acordar");
-		anim.SetBool("isSleeping", false);
 		sleeping = false;
 		toSleep = false;
-		hidden = false;
 	}
 
 }

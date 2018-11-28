@@ -7,6 +7,7 @@ TagManager:
   - Ears
   - Bush
   - Hole
+  - Earth
   layers:
   - Default
   - TransparentFX

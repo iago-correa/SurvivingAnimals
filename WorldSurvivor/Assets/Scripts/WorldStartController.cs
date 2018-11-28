@@ -17,7 +17,7 @@ public class WorldStartController : MonoBehaviour {
 
 	}
 
-	 void OnBecameVisible() {
-        print("star");
-     }
+	void OnBecameVisible() {
+        Debug.Log("star");
+    }
 }
