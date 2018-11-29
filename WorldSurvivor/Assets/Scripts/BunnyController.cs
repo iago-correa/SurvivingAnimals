@@ -149,6 +149,18 @@ public class BunnyController : MonoBehaviour {
 
 	}
 
+	void OnCollisionEnter2D(Collision2D other){
+		if(other.gameObject.tag == "Food"){
+			if(energy <= 9500){
+				if(life + other.gameObject.GetComponent<CarrotController>().health <= 100){
+					life += other.gameObject.GetComponent<CarrotController>().health;
+				}
+				energy += other.gameObject.GetComponent<CarrotController>().energy;
+				Destroy(other.gameObject);
+			}
+		}
+	}
+
 	void OnTriggerExit2D(Collider2D other){
 
 		if(other.gameObject.tag == "Bush"){

@@ -8,6 +8,7 @@ TagManager:
   - Bush
   - Hole
   - Earth
+  - Food
   layers:
   - Default
   - TransparentFX
