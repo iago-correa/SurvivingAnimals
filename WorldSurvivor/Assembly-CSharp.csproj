@@ -56,7 +56,10 @@
      <Compile Include="Assets\Scripts\AntiRotation.cs" />
      <Compile Include="Assets\Scripts\BunnyController.cs" />
      <Compile Include="Assets\Scripts\CarrotController.cs" />
+     <Compile Include="Assets\Scripts\CarrotScript.cs" />
      <Compile Include="Assets\Scripts\EarthController.cs" />
+     <Compile Include="Assets\Scripts\GroundController.cs" />
+     <Compile Include="Assets\Scripts\HumanController.cs" />
      <Compile Include="Assets\Scripts\WorldStartController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/iagog/Documents/Github/SurvivingAnimals/WorldSurvivor/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
