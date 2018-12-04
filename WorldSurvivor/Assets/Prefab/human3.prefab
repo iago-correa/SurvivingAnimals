@@ -25,9 +25,10 @@ GameObject:
   - component: {fileID: 50066114883333104}
   - component: {fileID: 114191014559927844}
   - component: {fileID: 114681925222412818}
+  - component: {fileID: 58065110819055852}
   m_Layer: 0
   m_Name: human3
-  m_TagString: Untagged
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1102711150258710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3, y: 34.34, z: 0}
+  m_LocalPosition: {x: 21.61, y: 25.9, z: -0.20585822}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -64,7 +65,22 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!58 &58065110819055852
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102711150258710}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.14352429, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.910573
 --- !u!61 &61653205509606616
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -77,7 +93,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0075321198, y: -0.028245449}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -88,7 +104,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 1.02}
+  m_Size: {x: 0.4568901, y: 0.8731241}
   m_EdgeRadius: 0
 --- !u!95 &95381083292152892
 Animator:
@@ -119,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a0384d3ec76b264da7b0776cd788b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  world: {fileID: 1035184958319072, guid: dde4f45557fb16240ac028782d2de307, type: 2}
+  world: {fileID: 0}
 --- !u!114 &114681925222412818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -131,9 +147,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e660b1d9efe00c43aa82aa68821445d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveType: 3
+  moveType: 1
   onHunt: 0
-  speed: 0
+  speed: 2
+  timeToGiveUp: 1
+  shock: 0
+  shockTime: 0.1
+  shockVec: {x: 0, y: 0, z: 0}
+  timeOutScreen: 0
+  posInit: {x: 0, y: 0, z: 0}
+  flipTime: 2.5
 --- !u!212 &212173896443995038
 SpriteRenderer:
   m_ObjectHideFlags: 1

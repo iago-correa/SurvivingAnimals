@@ -9,6 +9,9 @@ TagManager:
   - Hole
   - Earth
   - Food
+  - Human
+  - BackSong
+  - GameOver
   layers:
   - Default
   - TransparentFX
