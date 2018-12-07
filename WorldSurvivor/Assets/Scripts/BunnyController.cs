@@ -212,10 +212,11 @@ public class BunnyController : MonoBehaviour {
 			if(energy > 10000){
 				energy = 10000;
 			}
-			totalSleeping = world.transform.localRotation.z;
+			//totalSleeping = world.transform.localRotation.z;
+			totalSleeping = transform.localRotation.eulerAngles.z;
 			Debug.Log("totalSleeping");
 			Debug.Log(totalSleeping);
-			if(initSleep - totalSleeping < 0.05 && initSleep - totalSleeping > 0){
+			if(Mathf.Abs(initSleep - totalSleeping) < 2 && initSleep - Mathf.Abs(totalSleeping) > 0){
 				Wake();
 				totalSleeping = 0;
 			}
@@ -313,7 +314,8 @@ public class BunnyController : MonoBehaviour {
 		Debug.Log("Dormir");
 		sleeping = true;
 		amountIcrEnergy = 0;
-		initSleep = world.transform.localRotation.z;
+		//initSleep = world.transform.localRotation.z;
+		initSleep = transform.localRotation.eulerAngles.z;
 		Debug.Log("initSleep");
 		Debug.Log(initSleep);
 	}

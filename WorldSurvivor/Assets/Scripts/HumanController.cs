@@ -115,7 +115,7 @@ public class HumanController : MonoBehaviour {
 		//transform.Rotate(Vector3.forward);
 		//transform.localRotation = transform.localRotation+Quaternion.Euler(0, 180, 0);
 		transform.localScale = new Vector3(transform.localScale.x *-1, transform.localScale.y, transform.localScale.z);
-		Debug.Log("Vira");
+		//Debug.Log("Vira");
 	}
 
 }
